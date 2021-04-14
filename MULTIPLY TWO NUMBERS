@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+   int X;
+   int Y;
+   int TOTAL;
+
+   cout<<"enter X : ";
+   cin>>X;
+   cout <<"enter Y : ";
+   cin>>Y;
+   TOTAL=X*Y;
+
+   cout<<"TOTAL"<<TOTAL;
+
+
+return 0;
+
+}
