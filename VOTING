@@ -1,0 +1,46 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+
+{
+      //PLEASE USE FIRST NAME OF YOUR FASTHER FOR EFFECTIVE PROGRAMMING EXPERIENCE.
+      cout<<"ENTER YOUR FATHER'S NAME:";
+      string Fname;
+      cin>>Fname;
+
+        cout<<"Enter Your First name:";
+     string FIRSTNAME;
+     cin>>FIRSTNAME;
+
+        cout<<"Enter Your Last Name:";
+     string LASTNAME;
+     cin>>LASTNAME;
+     string FULLNAME = FIRSTNAME + LASTNAME;
+
+
+    int AGE;
+
+     cout<<"Enter your age:""\n";
+     cin>>AGE;
+
+     if(AGE>=18)
+     {
+        cout<<FULLNAME<<",son of,"<<Fname<<" as you are of age "<<AGE<<" ,you are eligible to vote.";
+     }
+      else
+        cout<<FULLNAME<<",son of,"<<Fname<<" as you are of age "<<AGE<<" ,you are not eligible to vote, go home and do your homework.";
+
+      if(AGE>=100)
+      {
+          cout<<FULLNAME<<",you are dead, go to your grave";
+
+      }
+
+     return 0;
+
+
+
+
+ }
